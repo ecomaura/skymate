@@ -31,7 +31,7 @@ home=f'''<section class="hero"><div class="w"><div><h1>Get found. Get chosen. Ge
 <div class="pc" style="--c:var(--orange)"><h3>Drive growth</h3><p>Google Ads, Meta Ads and lead generation tracked from the first click to the sale.</p><a href="services.html#leads">Performance marketing</a></div></div></div></section>
 <section class="sec alt"><div class="w goal"><div><h2>What do you want more of?</h2><p class="lead">Pick a goal and see where we would start.</p>
 <div class="chips" role="group" aria-label="Goals">{''.join(f'<button class="chip" data-g="{k}" aria-pressed="false">{t}</button>' for k,t in [('maps','Get found on Google Maps'),('leads','More leads and enquiries'),('social','Grow on Instagram and Facebook'),('site','A website or brand'),('chat','Chat with customers on WhatsApp'),('trust','Reviews and trust')])}</div></div>
-<div id="res" aria-live="polite"><h3>Your starting plan appears here</h3><p class="lead">Choose a goal on the left.</p></div></div></section>
+<div id="res" aria-live="polite"><h3>Your starting plan</h3><p class="lead">Pick a goal and your starting plan will show here.</p></div></div></section>
 <section class="sec"><div class="w"><h2>Start with the five basics</h2><p class="lead">Every local business needs these set up properly before any ad money is spent.</p>
 <div class="setup">
 <div class="sc">{ph("setup-gbp.jpg","600 × 600 px, square","Phone showing a Google Business Profile with photos and reviews")}<div><h3>Google Business Profile</h3><p>Verified, complete and ready to rank.</p></div></div>
